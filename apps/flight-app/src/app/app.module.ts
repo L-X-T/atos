@@ -16,6 +16,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoggerModule } from '@flight-workspace/logger-lib';
 import { CustomLogFormatterService } from './shared/logging/custom-log-formatter.service';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { FlightLookaheadComponent } from './flight-lookahead/flight-lookahead.component';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -32,9 +35,11 @@ import { CustomLogFormatterService } from './shared/logging/custom-log-formatter
       preloadingStrategy: PreloadAllModules
     }),
 
-    LoggerModule.forRoot({ enableDebug: true, logFormatterType: CustomLogFormatterService })
+    LoggerModule.forRoot({ enableDebug: true, logFormatterType: CustomLogFormatterService }),
+
+    ReactiveFormsModule
   ],
-  declarations: [AppComponent, SidebarComponent, NavbarComponent, HomeComponent, BasketComponent],
+  declarations: [AppComponent, SidebarComponent, NavbarComponent, HomeComponent, BasketComponent, FlightLookaheadComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
