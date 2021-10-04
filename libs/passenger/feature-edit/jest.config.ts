@@ -1,5 +1,6 @@
-module.exports = {
-  displayName: 'passenger-domain',
+/* eslint-disable */
+export default {
+  displayName: 'passenger-feature-edit',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -7,17 +8,14 @@ module.exports = {
       tsconfig: '<rootDir>/tsconfig.spec.json',
       stringifyContentPathRegex: '\\.(html|svg)$',
       astTransformers: {
-        before: [
-          'jest-preset-angular/build/InlineFilesTransformer',
-          'jest-preset-angular/build/StripStylesTransformer',
-        ],
-      },
-    },
+        before: ['jest-preset-angular/build/InlineFilesTransformer', 'jest-preset-angular/build/StripStylesTransformer']
+      }
+    }
   },
-  coverageDirectory: '../../../coverage/libs/passenger/domain',
+  coverageDirectory: '../../../coverage/libs/passenger/feature-edit',
   snapshotSerializers: [
     'jest-preset-angular/build/serializers/no-ng-attributes',
     'jest-preset-angular/build/serializers/ng-snapshot',
-    'jest-preset-angular/build/serializers/html-comment',
-  ],
+    'jest-preset-angular/build/serializers/html-comment'
+  ]
 };
