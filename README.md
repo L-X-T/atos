@@ -1,105 +1,83 @@
+# ATOS Angular Training & Consulting
 
+- [ATOS Angular Training & Consulting](#atos-angular-training-consulting)
+	- [Allgemein](#allgemein)
+		- [Vorgeschlagene Arbeitszeiten](#vorgeschlagene-arbeitszeiten)
+		- [Didaktik](#didaktik)
+	- [Vorgeschlagene Agenda](#vorgeschlagene-agenda)
+		- [Dienstag, 19.07. Architektur](#dienstag-1907-architektur)
+		- [Mittwoch, 20.07. Performance und Testing](#mittwoch-2007-performance-und-testing)
+		- [Donnerstag, 21.07. State Management](#donnerstag-2107-state-management)
 
-# AdvancedNxWorkspace
+## Allgemein
 
-This project was generated using [Nx](https://nx.dev).
+-   Datum: 19. bis 21. Juli 2022
+-   Location: ATOS Paderborn, Ahornallee 9, 33106 Paderborn, Deutschland
+-   (Haupt-)Themen:
+    -   Architektur
+    -   Performance
+    -   State Management
+    -   Testing
+    -   Best Practices
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+### Vorgeschlagene Arbeitszeiten
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+-   19.07. 8:30 bis spät. 17:30 (Mittagspause 12:30 - 13:30)
+-   20.07. 8:30 bis spät. 17:30 (Mittagspause 12:30 - 13:30)
+    -   After Work Event? Paderborner?
+-   21.07. 8:30 bis spät. 14:30 (Mittagspause 12:30 - 13:30)
+    -   Am 21. vorzeitiges Ende wegen Heimreise des Trainers
 
-## Quick Start & Documentation
+### Didaktik
 
-[Nx Documentation](https://nx.dev/angular)
+-   Inputs vom Trainer
+-   Angeleitete Übungen
+-   Questions & Answers
+-   Wissenstransfer in ATOS-Projekt(e)
 
-[10-minute video showing all Nx features](https://nx.dev/angular/getting-started/what-is-nx)
+## Vorgeschlagene Agenda
 
-[Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
+### Dienstag, 19.07. Architektur
 
-## Adding capabilities to your workspace
+-   08:30 Ankommen & Start
+-   09:00 Vorstellungsrunde & Agenda
+-   10:00 Kurze Pause
+-   10:15 Input & Lab **Nx & DDD**
+-   11:45 Kurze Pause
+-   12:00 Input **Microfrontends & Module Federation**
+-   12:30 Mittagspause
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+-   13:30 **Review ATOS-Projektstruktur**
+-   15:30 Pause
+-   16:00 Q&A **weitere Themen** wie
+    -   Fehlerbehandlung
+    -   Logging
+    -   Styling
+    -   ...
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+### Mittwoch, 20.07. Performance und Testing
 
-Below are our core plugins:
+-   08:30 Input & Lab **Performance**
+-   10:00 Kurze Pause
+-   10:15 Input & Lab **Unit Testing**
+-   11:15 Kurze Pause
+-   11:30 Input & Lab **E2E Testing**
+-   12:30 Mittagspause
 
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
+-   13:30 Vorschlag **3 Arbeits-Gruppen**
+    -   Gruppe 1: Review & Verbesserung Performance eines ATOS-Projekts
+    -   Gruppe 2: Hackathon Unit- und/oder E2E-Tests für ein ATOS-Projekt
+    -   Gruppe 3: Hackathon GAOI-Management
 
-There are also many [community plugins](https://nx.dev/nx-community) you could add.
+### Donnerstag, 21.07. State Management
 
-## Generate an application
+-   08:30 Input & Lab **State, Actions & Reducers**
+-   09:30 Input & Lab **Selectors**
+-   10:00 Kurze Pause
+-   10:15 Input & Lab **Effects**
+-   11:15 Kurze Pause
+-   11:30 **Review ATOS State Management**
+-   12:30 Mittagspause
 
-Run `ng g @nrwl/angular:app my-app` to generate an application.
-
-> You can use any of the plugins above to generate applications as well.
-
-When using Nx, you can create multiple applications and libraries in the same workspace.
-
-## Generate a library
-
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are shareable across libraries and applications. They can be imported from `@flight-workspace/mylib`.
-
-## Development server
-
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng g component my-component --project=my-app` to generate a new component.
-
-## Build
-
-Run `ng build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test my-app` to execute the unit tests via [Jest](https://jestjs.io).
-
-Run `nx affected:test` to execute the unit tests affected by a change.
-
-## Running end-to-end tests
-
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
-
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
-
-## Understand your workspace
-
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
-
-## Further help
-
-Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
-
-
-
-
-
-
-## ☁ Nx Cloud
-
-### Computation Memoization in the Cloud
-
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
+-   13:30 **Recap & Feedback**
+-   14:30 Ende
