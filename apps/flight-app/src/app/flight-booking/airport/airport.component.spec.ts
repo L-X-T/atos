@@ -1,4 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+
+import { AirportService } from '@flight-workspace/flight-lib';
 
 import { AirportComponent } from './airport.component';
 
@@ -8,9 +11,10 @@ describe('AirportComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AirportComponent ]
-    })
-    .compileComponents();
+      declarations: [AirportComponent],
+      imports: [HttpClientTestingModule],
+      providers: [AirportService]
+    }).compileComponents();
   });
 
   beforeEach(() => {
